@@ -1,0 +1,23 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(191, 186, 186);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    background-color: rgb(248, 230, 124);
+    font-weight: bold;
+}
+
+.image-box {
+    overflow: hidden;
+    height: 50%;
+}
