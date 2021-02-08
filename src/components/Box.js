@@ -3,7 +3,7 @@ import './Box.css'
 
 function Box(props) {
     return (
-        <div className="box">
+        <div className={props.boxStyle} >
             {props.id}
         </div>
     )
